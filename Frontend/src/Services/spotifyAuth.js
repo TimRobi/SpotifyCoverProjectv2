@@ -22,7 +22,9 @@ class spotifyAuth {
 
     }
 
-    
+    getAccessToken() {
+        return this.accessToken;
+    }
 
 
 
